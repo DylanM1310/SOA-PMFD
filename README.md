@@ -1,8 +1,3 @@
-# DEVOIR SOA 
+# DEVOIR SOA sur les API REST et RPC
 
-
-Création REPO : Dylan 
-
-API REST : PAUL / Mickael 
-
-Distribution des données EgaPro en RPC : Julian / Dylan 
+Groupe : Julian, Dylan, Paul et Mickael
