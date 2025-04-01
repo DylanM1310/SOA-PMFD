@@ -1,0 +1,29 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "EgaPro API",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/siren/{siren}": {
+            "get": {
+                "summary": "Get EgaPro data by SIREN",
+                "parameters": [{
+                    "name": "siren",
+                    "in": "path",
+                    "required": true,
+                    "type": "integer",
+                    "description": "SIREN number"
+                }],
+                "responses": {
+                    "200": {
+                        "description": "The corresponding data as a JSON"
+                    },
+                    "404": {
+                        "description": "SIREN not found"
+                    }
+                }
+            }
+        }
+    }
+}
